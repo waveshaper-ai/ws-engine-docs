@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>lib-cafx: WS::AudioModel Class Reference</title>
+<title>lib-ai: WS::AudioModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,9 +18,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">lib-cafx<span id="projectnumber">&#160;1_0_677</span>
+   <div id="projectname">lib-ai<span id="projectnumber">&#160;1_0_704</span>
    </div>
-   <div id="projectbrief">lib-cafx automated documentation</div>
+   <div id="projectbrief">lib-ai automated documentation</div>
   </td>
  </tr>
  </tbody>
@@ -66,9 +66,9 @@
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac3c2ea9e55f189e3ac6fab617edfc787"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_w_s_1_1_audio_model.html#ac3c2ea9e55f189e3ac6fab617edfc787">AudioModel</a> (std::string const &amp;activation=&quot;tanh&quot;)</td></tr>
-<tr class="memdesc:ac3c2ea9e55f189e3ac6fab617edfc787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="class_w_s_1_1_audio_model.html" title="Main entry point class to handle AI audio processing.">AudioModel</a>.  <br /></td></tr>
-<tr class="separator:ac3c2ea9e55f189e3ac6fab617edfc787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a584969d0b0649de10d126cfe05b06f8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_w_s_1_1_audio_model.html#a584969d0b0649de10d126cfe05b06f8e">AudioModel</a> (std::string const &amp;activation=&quot;tanh&quot;, unsigned int sampleRate=44100)</td></tr>
+<tr class="memdesc:a584969d0b0649de10d126cfe05b06f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="class_w_s_1_1_audio_model.html" title="Main entry point class to handle AI audio processing.">AudioModel</a>.  <br /></td></tr>
+<tr class="separator:a584969d0b0649de10d126cfe05b06f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51354bde54ffa1a249b459b56285d4f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_w_s_1_1_audio_model.html#a51354bde54ffa1a249b459b56285d4f7">~AudioModel</a> ()</td></tr>
 <tr class="memdesc:a51354bde54ffa1a249b459b56285d4f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor for <a class="el" href="class_w_s_1_1_audio_model.html" title="Main entry point class to handle AI audio processing.">AudioModel</a>.  <br /></td></tr>
 <tr class="separator:a51354bde54ffa1a249b459b56285d4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -82,6 +82,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a89c5a7cbfe636b1d60690f7ae6f65fc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_w_s_1_1_audio_model.html#a89c5a7cbfe636b1d60690f7ae6f65fc4">setNewParam</a> (std::string const &amp;param)</td></tr>
 <tr class="memdesc:a89c5a7cbfe636b1d60690f7ae6f65fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new parameter to the model.  <br /></td></tr>
 <tr class="separator:a89c5a7cbfe636b1d60690f7ae6f65fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23547cddf74ad9085025a56840be58e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_w_s_1_1_audio_model.html#a23547cddf74ad9085025a56840be58e4">setLicense</a> (std::string const &amp;license)</td></tr>
+<tr class="memdesc:a23547cddf74ad9085025a56840be58e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds license.  <br /></td></tr>
+<tr class="separator:a23547cddf74ad9085025a56840be58e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3052f096dd28b71d0e3b6ab3de706bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_w_s_1_1_audio_model.html#ae3052f096dd28b71d0e3b6ab3de706bc">setParamValueAt</a> (size_t param, double value)</td></tr>
 <tr class="memdesc:ae3052f096dd28b71d0e3b6ab3de706bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of a parameter by index.  <br /></td></tr>
 <tr class="separator:ae3052f096dd28b71d0e3b6ab3de706bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,8 +170,8 @@ Friends</h2></td></tr>
 <div class="ttc" id="aclass_w_s_1_1_audio_model_html"><div class="ttname"><a href="class_w_s_1_1_audio_model.html">WS::AudioModel</a></div><div class="ttdoc">Main entry point class to handle AI audio processing.</div><div class="ttdef"><b>Definition:</b> AudioModel.h:56</div></div>
 <div class="ttc" id="aclass_w_s_1_1_audio_model_html_ae3052f096dd28b71d0e3b6ab3de706bc"><div class="ttname"><a href="class_w_s_1_1_audio_model.html#ae3052f096dd28b71d0e3b6ab3de706bc">WS::AudioModel::setParamValueAt</a></div><div class="ttdeci">void setParamValueAt(size_t param, double value)</div><div class="ttdoc">Sets the value of a parameter by index.</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac3c2ea9e55f189e3ac6fab617edfc787" name="ac3c2ea9e55f189e3ac6fab617edfc787"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3c2ea9e55f189e3ac6fab617edfc787">&#9670;&#160;</a></span>AudioModel() <span class="overload">[1/2]</span></h2>
+<a id="a584969d0b0649de10d126cfe05b06f8e" name="a584969d0b0649de10d126cfe05b06f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a584969d0b0649de10d126cfe05b06f8e">&#9670;&#160;</a></span>AudioModel() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,8 +180,18 @@ Friends</h2></td></tr>
           <td class="memname">WS::AudioModel::AudioModel </td>
           <td>(</td>
           <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>activation</em> = <code>&quot;tanh&quot;</code></td><td>)</td>
+          <td class="paramname"><em>activation</em> = <code>&quot;tanh&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>sampleRate</em> = <code>44100</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -583,6 +596,33 @@ Friends</h2></td></tr>
 <div class="line">    <span class="comment">// Use processed audio in outputBuffer...</span></div>
 <div class="line">}</div>
 </div><!-- fragment --> 
+</div>
+</div>
+<a id="a23547cddf74ad9085025a56840be58e4" name="a23547cddf74ad9085025a56840be58e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23547cddf74ad9085025a56840be58e4">&#9670;&#160;</a></span>setLicense()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool WS::AudioModel::setLicense </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>license</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds license. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">license</td><td>License to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This is just a placeholder for a license checker We need a way to manage the license </p>
+
 </div>
 </div>
 <a id="a748c0dab5e16d1f61913adfa72544010" name="a748c0dab5e16d1f61913adfa72544010"></a>
